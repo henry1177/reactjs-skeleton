@@ -1,0 +1,78 @@
+Arguments: 
+  /Users/henry/.nvm/versions/node/v11.15.0/bin/node /Users/henry/.yarn/bin/yarn.js install
+
+PATH: 
+  /Users/henry/.yarn/bin:/Users/henry/.config/yarn/global/node_modules/.bin:/Users/henry/.nvm/versions/node/v11.15.0/bin:/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/henry/DEV/project/react-js-skeleton/node_modules/.bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  11.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/henry/DEV/project/react-js-skeleton/node_modules/@babel/cli/node_modules/source-map'
+
+npm manifest: 
+  {
+    "name": "react-js-skeleton",
+    "version": "1.0.0",
+    "description": "Basic structure for ReactJS application",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "webpack-dev-server",
+      "build": "./node_modules/.bin/webpack"
+    },
+    "author": "Henry Tran",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/cli": "^7.0.0",
+      "@babel/core": "^7.0.0",
+      "@babel/plugin-proposal-class-properties": "^7.0.0",
+      "@babel/plugin-proposal-decorators": "^7.0.0",
+      "@babel/plugin-proposal-do-expressions": "^7.0.0",
+      "@babel/plugin-proposal-export-default-from": "^7.0.0",
+      "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+      "@babel/plugin-proposal-function-bind": "^7.0.0",
+      "@babel/plugin-proposal-function-sent": "^7.0.0",
+      "@babel/plugin-proposal-json-strings": "^7.0.0",
+      "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+      "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+      "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+      "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+      "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+      "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+      "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+      "@babel/plugin-syntax-import-meta": "^7.0.0",
+      "@babel/preset-env": "^7.0.0",
+      "@babel/preset-react": "^7.0.0",
+      "babel-loader": "^8.0.0",
+      "clean-webpack-plugin": "^0.1.19",
+      "css-loader": "^1.0.1",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "html-webpack-plugin": "^3.2.0",
+      "mini-css-extract-plugin": "^0.4.4",
+      "node-sass": "^4.10.0",
+      "optimize-css-assets-webpack-plugin": "^5.0.1",
+      "prop-types": "^15.6.2",
+      "react": "^16.6.1",
+      "react-dom": "^16.6.1",
+      "react-router": "^4.3.1",
+      "react-router-dom": "^4.3.1",
+      "sass-loader": "^7.1.0",
+      "uglifyjs-webpack-plugin": "^2.0.1",
+      "webpack": "^4.25.1",
+      "webpack-cli": "^3.1.2",
+      "webpack-dev-server": ">=3.1.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
